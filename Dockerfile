@@ -164,7 +164,7 @@ EXPOSE 22
 WORKDIR /home/${USER}/work 
 RUN echo "source /home/${USER}/ws_moveit2/install/setup.bash" >> /home/"${USER}"/.bashrc
 RUN echo "export RMW_IMPLEMENTATION=rmw_fastrtps_cpp" >> ~/.bashrc
-RUN echo "export ROS_DOMAIN_ID=78" >> ~/.bashrc
+#RUN echo "export ROS_DOMAIN_ID=78" >> ~/.bashrc
 
 
 
